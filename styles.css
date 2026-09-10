@@ -56,6 +56,60 @@ p {
   margin-top: 2px;
 }
 
+.muted {
+  color: #555;
+  font-size: 14px;
+}
+
+.company {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.company-logo {
+  height: 34px;
+}
+
+.role {
+  border-top: 1px solid #d5d5d5;
+  padding: 13px 0 4px;
+}
+
+.role-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.role-head h3 {
+  margin: 0;
+}
+
+.role-head .muted {
+  white-space: nowrap;
+}
+
+.school {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 0 4px;
+}
+
+.school + .school {
+  border-top: 1px solid #d5d5d5;
+}
+
+.school-logo {
+  height: 44px;
+}
+
+.school h3 {
+  margin-bottom: 2px;
+}
+
 a {
   color: #0645ad;
 }
